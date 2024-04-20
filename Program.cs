@@ -74,7 +74,7 @@ class VideoJuegoJpf : VideoJuego
     // Método para mostrar información del juego RPG
     public override void MostrarInformacion()
     {
-        base.MostrarInformacion(); // Llamada al método de la clase base
+        base.MostrarInformacion(); // Llamada al método de la clase bas
         Console.WriteLine($"Nivel Máximo: {NivelMaximo}");
         Console.WriteLine(value: $"Mundo de Fantasía: {MundoFantasia}");
     }
